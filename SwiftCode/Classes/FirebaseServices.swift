@@ -5,6 +5,8 @@
 //  Copyright © 2018 Abdullah Alhaider. All rights reserved.
 //
 
+/* YOU NEED TO USE FIREBASE FIRST
+ 
 import Foundation
 import UIKit
 import Firebase
@@ -57,3 +59,4 @@ class FirebaseServices {
     
     
 }// Class ends.
+*/

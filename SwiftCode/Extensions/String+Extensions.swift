@@ -11,7 +11,7 @@ extension String {
     
     
     
-    // This help you when creating sign up page
+    // This helps you when creating sign up page
     var isValidEmail: Bool {
         let emailFormat = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}"
         let emailPredicate = NSPredicate(format:"SELF MATCHES %@", emailFormat)
@@ -26,7 +26,7 @@ extension String {
     
     
     
-    // Those methods is to remove the white spacing in string
+    // Those methods is to remove the white spacing in a string
     func replace(string:String, replacement:String) -> String {
         return self.replacingOccurrences(of: string, with: replacement, options: NSString.CompareOptions.literal, range: nil)
     }

@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 extension UIView {
     
@@ -28,4 +29,4 @@ extension UIView {
         self.layer.insertSublayer(gradient, at: 0)
     }
 }
-// To use it in you viewDidLoud -->> view.addVerticalGradientLayer(topColor: UIColor.black, bottomColor: UIColor.red)
+// To use it in you viewDidLoad() -->> view.addVerticalGradientLayer(topColor: UIColor.black, bottomColor: UIColor.red)
