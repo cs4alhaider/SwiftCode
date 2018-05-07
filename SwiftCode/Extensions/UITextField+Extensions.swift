@@ -5,7 +5,6 @@
 //  Copyright © 2018 Abdullah Alhaider. All rights reserved.
 //
 
-import Foundation
 import UIKit
 
 extension UITextField {

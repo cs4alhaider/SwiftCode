@@ -11,4 +11,6 @@ Creating helpful extensions and methods to short your coding time.
   * [String+Extensions.swift](https://github.com/cs4alhaider/SwiftCode/blob/master/SwiftCode/Extensions/String%2BExtensions.swift)
   * [UIDevice+Extensions.swift](https://github.com/cs4alhaider/SwiftCode/blob/master/SwiftCode/Extensions/UIDevice%2BExtensions.swift)
   * [UITextField+Extensions.swift](https://github.com/cs4alhaider/SwiftCode/blob/master/SwiftCode/Extensions/UITextField%2BExtensions.swift)
-  * [UIView+Extensions.swift](https://github.com/cs4alhaider/SwiftCode/blob/master/SwiftCode/Extensions/View%2BExtensions.swift)
+  * [UIView+Extensions.swift](https://github.com/cs4alhaider/SwiftCode/blob/master/SwiftCode/Extensions/UIView%2BExtensions.swift)
+  * [UIImageView+Extensions.swift](https://github.com/cs4alhaider/SwiftCode/blob/master/SwiftCode/Extensions/UIImageView%2BExtensions.swift)
+  

@@ -1,11 +1,10 @@
 //
-//  View+Extensions.swift
+//  UIView+Extensions.swift
 //
 //  Created by Abdullah Alhaider on 5/05/18.
 //  Copyright © 2018 Abdullah Alhaider. All rights reserved.
 //
 
-import Foundation
 import UIKit
 
 extension UIView {
@@ -28,5 +27,16 @@ extension UIView {
         gradient.endPoint = CGPoint(x: 0, y: 1)
         self.layer.insertSublayer(gradient, at: 0)
     }
-}
+    
 // To use it in you viewDidLoad() -->> view.addVerticalGradientLayer(topColor: UIColor.black, bottomColor: UIColor.red)
+
+    
+    
+/**********************************************************************************************/
+/**********************************************************************************************/
+    
+
+    
+    
+}
+

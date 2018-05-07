@@ -5,7 +5,7 @@
 //  Copyright © 2018 Abdullah Alhaider. All rights reserved.
 //
 
-/* YOU NEED TO USE FIREBASE FIRST
+/* YOU NEED TO USE FIREBASE POD FIRST
  
 import Foundation
 import UIKit
