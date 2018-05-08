@@ -18,6 +18,12 @@ extension String {
         return emailPredicate.evaluate(with: self)
     }
     
+    var isValidNumber: Bool {
+        let numberFormat = "^[0-9]*$"
+        let numberPredicate = NSPredicate(format:"SELF MATCHES %@", numberFormat)
+        return numberPredicate.evaluate(with: self)
+    }
+    
     
     
     /***********************************************************************************/

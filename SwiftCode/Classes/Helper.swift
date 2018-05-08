@@ -12,16 +12,26 @@ class Helper {
     
     
     
-    static func getDate() -> String {
+    /****************************************************************************************************/
+    /****************************************************************************************************/
+    
+    enum dateFormat: String {
+        case MMMMddYYYYWithTime = "MMMM dd, yyyy 'at' h:mm a"
+        case ddmmyyyyWithTime = "dd/MM/yyyy 'at' h:mm a"
+        /*
+         - You can add as many format as you want
+         - and if you not familiar with other date format you can use this website
+         - to pick your best format http://nsdateformatter.com/
+         */
+    }
+    
+    static func getDate(format: dateFormat) -> String {
         
         let theDate = Date()
         
         let formatter = DateFormatter()
         formatter.locale = Locale(identifier: "en_US_POSIX")
-        formatter.dateFormat = "MMMM dd, yyyy 'at' h:mm a"
-        formatter.amSymbol = "AM"
-        formatter.pmSymbol = "PM"
-        
+        formatter.dateFormat = format.rawValue
         let formatedDate = formatter.string(from:theDate)
         
         return formatedDate
@@ -37,15 +47,14 @@ class Helper {
     */
     static func formatThisNumber(stringNumber: String) -> String {
         
-        let ourNumberStr: String = stringNumber
+        let ourString: String = stringNumber
         let ourFormatter: NumberFormatter = NumberFormatter()
         ourFormatter.locale = NSLocale(localeIdentifier: "EN") as Locale?
-        let ourFinal = ourFormatter.number(from: ourNumberStr)
+        let ourFinal = ourFormatter.number(from: ourString)
         print(ourFinal!)
         let ourStringNumber = "\(Int(truncating: ourFinal!))"
         
         return ourStringNumber
-        
     }
     
     
