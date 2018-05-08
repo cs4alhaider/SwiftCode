@@ -2,6 +2,9 @@
 
 Creating helpful extensions and methods to short your coding time.
 
+[![Twitter: @cs_alhaider](https://img.shields.io/badge/contact-%40cs_alhaider-blue.svg)](https://twitter.com/cs_alhaider)
+![Platform](https://img.shields.io/badge/platform-ios-lightgrey.svg)
+
 ### Classes folder contain :
   * [FirebaseServices.swift](https://github.com/cs4alhaider/SwiftCode/blob/master/SwiftCode/Classes/FirebaseServices.swift)
   * [Helper.swift](https://github.com/cs4alhaider/SwiftCode/blob/SwiftCode/master/Classes/Helper.swift)
