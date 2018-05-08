@@ -27,13 +27,8 @@ class Helper {
         return formatedDate
     }
     
-    
-    
-    
     /****************************************************************************************************/
     /****************************************************************************************************/
-    
-    
     
     
     /*
@@ -54,51 +49,52 @@ class Helper {
     }
     
     
-    
-    
     /****************************************************************************************************/
     /****************************************************************************************************/
     
     
+    enum shakingType {
+        case light
+        case medium
+        case heavy
+        case success
+        case warning
+        case error
+    }
     
-    
-    static func shakePhone(style:Int){
+    static func shakePhone(style: shakingType){
         
-        let selected = style
-        
-        if selected == 1 {
+        if style == .light {
             let lightGenerator = UIImpactFeedbackGenerator(style: .light)
             lightGenerator.impactOccurred()
         }
         
-        if selected == 2 {
+        if style == .medium {
             let mediumGenerator = UIImpactFeedbackGenerator(style: .medium)
             mediumGenerator.impactOccurred()
         }
         
-        if selected == 3 {
+        if style == .heavy {
             let heavyGenerator = UIImpactFeedbackGenerator(style: .heavy)
             heavyGenerator.impactOccurred()
         }
         
-        if selected == 100 {
+        if style == .success {
             let generator = UINotificationFeedbackGenerator()
             generator.notificationOccurred(.success)
         }
         
-        if selected == 200 {
+        if style == .warning {
             let generator = UINotificationFeedbackGenerator()
             generator.notificationOccurred(.warning)
         }
         
-        if selected == 300 {
+        if style == .error {
             let generator = UINotificationFeedbackGenerator()
             generator.notificationOccurred(.error)
         }
         
     }
-    
-    
     
     
     /****************************************************************************************************/
