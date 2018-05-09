@@ -3,21 +3,21 @@
 Creating helpful extensions and methods to short your coding time.
 
 [![Twitter: @cs_alhaider](https://img.shields.io/badge/Contact-%40cs_alhaider-blue.svg)](https://twitter.com/cs_alhaider)
-![Swift](https://img.shields.io/badge/Swift-v4.2-orange.svg)
+![Swift](https://img.shields.io/badge/Swift-v4.1-orange.svg)
 ![Platform](https://img.shields.io/badge/Platform-ios-lightgrey.svg)
 
 
 ## Classes folder contain :
-  - [FirebaseServices](FirebaseServices)
-  - [Helper](Helper)
+- [FirebaseServices](#firebaseservices)
+- [Helper](#helper)
 
 
 ## Extensions folder contain :
-  - [String+Extensions](String+Extensions)
-  - [UIDevice+Extensions](UIDevice+Extensions)
-  - [UITextField+Extensions](UITextField+Extensions)
-  - [UIView+Extensions](UIView+Extensions)
-  - [UIImageView+Extensions](UIImageView+Extensions)
+  - [String Extensions](#string-extensions)
+  - [UIDevice Extensions](#uidevice-extensions)
+  - [UITextField Extensions](#uitextfield-extensions)
+  - [UIView Extensions](#uiview-extensions)
+  - [UIImageView Extensions](#uiimageview-extensions)
   
 <br />
 
@@ -28,7 +28,43 @@ Creating helpful extensions and methods to short your coding time.
 
 ### Helper
 - [x] getDate method  ``` // return the current date in different format ```
-- [x] formatThisNumber method  ``` // takes string numbers (like Arabic numbers) and return string english numbers ```
+- [x] formatThisNumber method  ``` // takes string numbers (e.g Arabic numbers) and return string english numbers ```
 - [x] shakePhone method  ``` // all kinds of UIImpactFeedbackGenerator .light .medium etc.. ```
 - [x] disabledForSome method  ``` // take control of what to show/hide for specific iOS devices ```
 - [x] showBasicAlert method  ``` // showing basic alert with title and message and OK button to dissmiss ```
+
+<br />
+
+### Extensions
+
+#### String Extensions 
+- [x] isValidEmail  ``` // return true if the email match the regular expression (helful when adding sign up page)```
+- [x] isValidNumber  ``` // return true if the number match the regular expression ```
+- [x] removeWhitespace method  ``` // removing the white space form string ```
+
+#### UIDevice Extensions
+- [x] modelName  ``` // determines the current iOS device model ```
+
+#### UITextField Extensions
+- [x] addUnderlineDesign method  ``` // adds Underline Design to UITextField ```
+
+#### UIView Extensions
+- [x] addVerticalGradientLayer method  ``` // adds a vertical gradient layer with two UIColors to the UIView ```
+
+#### UIImageView Extensions
+- [x] downloadedFrom method  ``` // downloads an image asynchronously from the web using URLSession```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
