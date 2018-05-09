@@ -1,12 +1,12 @@
 # SwiftCode
 
-Creating helpful extensions and methods to short your coding time.
+Helpful extensions and methods to short your coding time.
 
-[![Twitter: @cs_alhaider](https://img.shields.io/badge/Contact-%40cs_alhaider-blue.svg)](https://twitter.com/cs_alhaider)
-![Swift](https://img.shields.io/badge/Swift-v4.1-orange.svg)
-![Platform](https://img.shields.io/badge/Platform-ios-lightgrey.svg)
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-
+[![Twitter: @cs_alhaider](https://img.shields.io/badge/contact-%40cs_alhaider-blue.svg)](https://twitter.com/cs_alhaider)
+![Swift](https://img.shields.io/badge/language-swift%20v4.1-orange.svg)
+![Platform](https://img.shields.io/badge/platform-ios-lightgrey.svg)
+[![Support](https://img.shields.io/badge/support-iOS%2010.3%2B%20-blue.svg?style=flat)](https://www.apple.com/nl/ios/)
 
 ## Classes folder contains :
 - [FirebaseServices](#firebaseservices)
@@ -66,18 +66,3 @@ Creating helpful extensions and methods to short your coding time.
 
 #### UIColor Extensions
 - [x] colorFromHexString method  ``` // return UIColor from a given hex string color```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
