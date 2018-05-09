@@ -5,15 +5,16 @@ Creating helpful extensions and methods to short your coding time.
 [![Twitter: @cs_alhaider](https://img.shields.io/badge/Contact-%40cs_alhaider-blue.svg)](https://twitter.com/cs_alhaider)
 ![Swift](https://img.shields.io/badge/Swift-v4.1-orange.svg)
 ![Platform](https://img.shields.io/badge/Platform-ios-lightgrey.svg)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 
-## Classes folder contain :
+## Classes folder contains :
 - [FirebaseServices](#firebaseservices)
 - [Helper](#helper)
 - [ThemeManager](#thememanager)
 
 
-## Extensions folder contain :
+## Extensions folder contains :
   - [String Extensions](#string-extensions)
   - [UIDevice Extensions](#uidevice-extensions)
   - [UITextField Extensions](#uitextfield-extensions)
