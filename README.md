@@ -10,6 +10,7 @@ Creating helpful extensions and methods to short your coding time.
 ## Classes folder contain :
 - [FirebaseServices](#firebaseservices)
 - [Helper](#helper)
+- [ThemeManager](#thememanager)
 
 
 ## Extensions folder contain :
@@ -18,6 +19,7 @@ Creating helpful extensions and methods to short your coding time.
   - [UITextField Extensions](#uitextfield-extensions)
   - [UIView Extensions](#uiview-extensions)
   - [UIImageView Extensions](#uiimageview-extensions)
+  - [UIColor Extensions](#uicolor-extensions)
   
 <br />
 
@@ -32,6 +34,12 @@ Creating helpful extensions and methods to short your coding time.
 - [x] shakePhone method  ``` // all kinds of UIImpactFeedbackGenerator .light .medium etc.. ```
 - [x] disabledForSome method  ``` // take control of what to show/hide for specific iOS devices ```
 - [x] showBasicAlert method  ``` // showing basic alert with title and message and OK button to dissmiss ```
+
+
+### ThemeManager
+- [x] Light theme 
+- [x] Dark theme
+- [x] YOU CAN ADD MANY THEMES AS YOU LIKE 
 
 <br />
 
@@ -50,9 +58,13 @@ Creating helpful extensions and methods to short your coding time.
 
 #### UIView Extensions
 - [x] addVerticalGradientLayer method  ``` // adds a vertical gradient layer with two UIColors to the UIView ```
+- [x] dropShadow method  ``` // drop a shadow to the UIView ```
 
 #### UIImageView Extensions
 - [x] downloadedFrom method  ``` // downloads an image asynchronously from the web using URLSession```
+
+#### UIColor Extensions
+- [x] colorFromHexString method  ``` // return UIColor from a given hex string color```
 
 
 

@@ -18,6 +18,8 @@
 		E82C6BD5209ED388007ADC2F /* UIDevice+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82C6BCF209ED388007ADC2F /* UIDevice+Extensions.swift */; };
 		E82C6BD6209ED388007ADC2F /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82C6BD0209ED388007ADC2F /* UIView+Extensions.swift */; };
 		E82C6BD7209ED388007ADC2F /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82C6BD1209ED388007ADC2F /* UITextField+Extensions.swift */; };
+		E8337F7020A2B7B900EBB129 /* ThemeManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8337F6F20A2B7B900EBB129 /* ThemeManger.swift */; };
+		E8337F7220A2BC5500EBB129 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8337F7120A2BC5500EBB129 /* UIColor+Extensions.swift */; };
 		E8A7DADA209FEFD20036D41B /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A7DAD9209FEFD20036D41B /* UIImageView+Extensions.swift */; };
 		E8FB66B3209EDC3A0094E05E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB66B2209EDC3A0094E05E /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
@@ -36,6 +38,8 @@
 		E82C6BCF209ED388007ADC2F /* UIDevice+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extensions.swift"; sourceTree = "<group>"; };
 		E82C6BD0209ED388007ADC2F /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		E82C6BD1209ED388007ADC2F /* UITextField+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
+		E8337F6F20A2B7B900EBB129 /* ThemeManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManger.swift; sourceTree = "<group>"; };
+		E8337F7120A2BC5500EBB129 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 		E8A7DAD9209FEFD20036D41B /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
 		E8FB66B2209EDC3A0094E05E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,6 +92,7 @@
 			children = (
 				E82C6BCB209ED388007ADC2F /* FirebaseServices.swift */,
 				E82C6BCC209ED388007ADC2F /* Helper.swift */,
+				E8337F6F20A2B7B900EBB129 /* ThemeManger.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -100,6 +105,7 @@
 				E82C6BD0209ED388007ADC2F /* UIView+Extensions.swift */,
 				E82C6BD1209ED388007ADC2F /* UITextField+Extensions.swift */,
 				E8A7DAD9209FEFD20036D41B /* UIImageView+Extensions.swift */,
+				E8337F7120A2BC5500EBB129 /* UIColor+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -182,7 +188,9 @@
 				E8FB66B3209EDC3A0094E05E /* SecondViewController.swift in Sources */,
 				E82C6B9D209ED2C3007ADC2F /* AppDelegate.swift in Sources */,
 				E82C6BD6209ED388007ADC2F /* UIView+Extensions.swift in Sources */,
+				E8337F7220A2BC5500EBB129 /* UIColor+Extensions.swift in Sources */,
 				E82C6BD2209ED388007ADC2F /* FirebaseServices.swift in Sources */,
+				E8337F7020A2B7B900EBB129 /* ThemeManger.swift in Sources */,
 				E82C6BD3209ED388007ADC2F /* Helper.swift in Sources */,
 				E82C6BD5209ED388007ADC2F /* UIDevice+Extensions.swift in Sources */,
 			);

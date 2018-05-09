@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--SwiftCode-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SwiftCode" customModuleProvider="target" sceneMemberID="viewController">
@@ -19,26 +19,38 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="z3B-cY-2hg">
-                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="3eV-SM-hrb"/>
+                                </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You can switch themes from AppDelegate" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="ygl-cI-x5K">
+                                <rect key="frame" x="8" y="279" width="359" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="z3B-cY-2hg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="BcS-Fb-FLe"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="z3B-cY-2hg" secondAttribute="trailing" id="Zra-W2-a4p"/>
-                            <constraint firstItem="z3B-cY-2hg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="nkZ-vG-5Gx"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="z3B-cY-2hg" secondAttribute="bottom" id="tfC-em-Yj3"/>
+                            <constraint firstItem="z3B-cY-2hg" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="H0h-6I-12Z"/>
+                            <constraint firstItem="z3B-cY-2hg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="JOY-Eg-FTI"/>
+                            <constraint firstItem="ygl-cI-x5K" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="V6N-d9-nR8"/>
+                            <constraint firstItem="ygl-cI-x5K" firstAttribute="top" secondItem="z3B-cY-2hg" secondAttribute="bottom" constant="15" id="acn-Da-ltR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ygl-cI-x5K" secondAttribute="trailing" constant="8" id="kcC-ZQ-dsa"/>
+                            <constraint firstItem="z3B-cY-2hg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="rUj-45-3R4"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="yBw-3V-Uwf"/>
+                    <navigationItem key="navigationItem" title="SwiftCode" id="yBw-3V-Uwf"/>
                     <connections>
                         <outlet property="imageView" destination="z3B-cY-2hg" id="nrf-rK-BQk"/>
+                        <outlet property="themeLabel" destination="ygl-cI-x5K" id="ZPc-DH-07H"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1548" y="296"/>
+            <point key="canvasLocation" x="1548" y="295.50224887556226"/>
         </scene>
         <!--Second View Controller-->
         <scene sceneID="DHx-6O-9f5">
@@ -47,10 +59,34 @@
                     <view key="view" contentMode="scaleToFill" id="eJP-TZ-Xbr">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Titel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1lm-kO-vHh">
+                                <rect key="frame" x="164.5" y="320" width="47" height="28"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KEa-RU-i1z">
+                                <rect key="frame" x="154" y="362" width="67.5" height="23"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="KEa-RU-i1z" firstAttribute="centerX" secondItem="eJP-TZ-Xbr" secondAttribute="centerX" id="8nd-3B-A9H"/>
+                            <constraint firstItem="1lm-kO-vHh" firstAttribute="centerX" secondItem="eJP-TZ-Xbr" secondAttribute="centerX" id="Twj-0Q-5Oo"/>
+                            <constraint firstItem="KEa-RU-i1z" firstAttribute="centerY" secondItem="eJP-TZ-Xbr" secondAttribute="centerY" constant="40" id="sV9-2G-dKu"/>
+                            <constraint firstItem="1lm-kO-vHh" firstAttribute="centerY" secondItem="eJP-TZ-Xbr" secondAttribute="centerY" id="uIx-DR-U23"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="cLm-ge-xZf"/>
                     </view>
                     <navigationItem key="navigationItem" id="4J1-dd-fHO"/>
+                    <connections>
+                        <outlet property="subtitleLabel" destination="KEa-RU-i1z" id="POO-T8-dko"/>
+                        <outlet property="titelLabel" destination="1lm-kO-vHh" id="Iay-vv-BQX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="afy-8H-evP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
